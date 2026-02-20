@@ -1,5 +1,8 @@
 # OpenCore Legacy Patcher changelog
 
+## 3.1.6
+Added a toggle to the 'Root Patches' sector to disable the 'Modern Audio' patch for AppleHDA restoration. This prevents unrecoverable kernel panics in macOS Tahoe without an installed KDK.
+
 ## 3.1.5
 Backward compatibility with macOS Tahoe 26.0–26.3 has been preserved.
 HFS+ Removal: Apple deleted the HFS+ file system in macOS 26.4B1; this version is entirely replaced with APFS to be compatible with the new system.
