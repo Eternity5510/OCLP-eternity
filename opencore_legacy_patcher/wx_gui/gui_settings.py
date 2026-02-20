@@ -719,7 +719,7 @@ class SettingsFrame(wx.Frame):
                     "description": [
                         "Enable Modern Audio patches for",
                         "macOS Tahoe and newer.",
-                        "Only disable if you lack a KDK",
+                        "Disable if you don't have KDK",
                         "for the current OS version.",
                     ],
                     "condition": self.constants.detected_os >= os_data.os_data.tahoe
