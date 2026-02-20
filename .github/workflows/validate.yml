@@ -12,8 +12,6 @@ jobs:
   build:
     name: Validate
     runs-on: macos-15-intel
-    # x86_64_monterey
-    # if: github.repository_owner == ''
     steps:
       - uses: actions/checkout@v4
       - name: Install package requirements
