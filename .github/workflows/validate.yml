@@ -12,7 +12,7 @@ jobs:
   build:
     name: Validate
     runs-on: macos-15-intel
-    if: github.repository_owner == 'YBronst'
+    if: github.repository_owner == 'dortania'
     steps:
       - uses: actions/checkout@v4
       - name: Install package requirements
