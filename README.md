@@ -16,7 +16,7 @@ This repository supports:
 * Mounting images via [`hdiutil`](https://github.com/YBronst/tccplus) now requires **elevated privileges** and cannot be executed in a normal user context. Because of this, the original OCLP 3.0.0 Nightly workflow cannot complete the root patch installation process on macOS 26.4 without modification.
 
 ## Key Changes in 3.1.6
-Added a toggle to the 'Root Patches' sector to disable the 'Modern Audio' patch for AppleHDA restoration. This prevents unrecoverable kernel panics in macOS Tahoe without an installed KDK.
+Added a toggle to the 'Root Patches' sector to enable/disable the 'Modern Audio' patch for AppleHDA restoration. This prevents unrecoverable kernel panics in macOS Tahoe without an installed KDK.
 
 ## Key Changes in 3.1.5
 * **Backward compatibility** with macOS Tahoe 26.0–26.3 has been preserved.
