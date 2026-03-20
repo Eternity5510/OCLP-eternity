@@ -1,4 +1,4 @@
-# OpenCore Legacy Patcher changelog
+# OCLP-Plus changelog
 
 ## 3.1.7
 Full support for Darwin 25 (macOS Tahoe).
