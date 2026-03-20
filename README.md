@@ -32,8 +32,7 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 
 ### 🔑 AMFI & Security
 
-*   **AMFIPass Alert:** Do **NOT** use `AMFIPass.kext` standalone. In macOS Tahoe, this version causes persistent kernel panics during boot.
-*   **Solution:** You must use the boot argument amfi=0x80 to successfully bypass Apple Mobile File Integrity checks.
+*   **AMFI Alert:** You **must use the boot argument** amfi=0x80 to successfully bypass Apple Mobile File Integrity checks.
 *   **Note:** If you experience issues with third-party browsers (like Firefox) or camera/mic permissions, consider adding `ipc_control_port_options=0` to your boot-args as well.
 *   **SIP Requirements:** System Integrity Protection must be set properly.
 *   **Typical Value:** (CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS).
