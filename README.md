@@ -1,4 +1,4 @@
-# <img src="https://github.com/YBronst/OCLP-Plus/blob/main/docs/images/OC-Patcher.png" width="48" align="center"> [OCLP-Plus 3.1.7 Tahoe Patch Set](https://github.com/YBronst/OCLP-Plus/releases)
+# <img src="https://github.com/YBronst/OCLP-Plus/blob/main/docs/images/OC-Patcher.png" width="48" align="center"> [OCLP-Plus Tahoe Patch Set](https://github.com/YBronst/OCLP-Plus/releases)
 
 **Based on the lzhoang2801 Tahoe patchset and optimized for macOS 26.x builds.**
 
