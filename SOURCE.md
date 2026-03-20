@@ -20,9 +20,9 @@ Once Python is installed, open Terminal and run the following:
 # Move into a directory to store the project
 cd ~/Developer
 # Clone project
-git https://github.com/YBronst/OCLP-YBronst.git
+git https://github.com/YBronst/OCLP-Plus.git
 # Move into Project directory
-cd ./OCLP-YBronst
+cd ./OCLP-Plus
 # Install Python dependencies used by the project
 pip3 install -r requirements.txt
 ```
@@ -59,7 +59,7 @@ The main goal of generating prebuilt binaries is to strip the requirement of a l
 # Install PyInstaller
 pip3 install pyinstaller
 # Move into project directory
-cd ~/Developer/OCLP-YBronst/
+cd ~/Developer/OCLP-Plus/
 # Create the pyinstaller based Application
 python3 Build-Project.command
 # Open build folder
