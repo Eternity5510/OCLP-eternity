@@ -47,18 +47,18 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 > OpenCore: Select "Reset NVRAM" from the boot picker menu (or press Space if it's hidden).
 > Clover: Press F11 at the boot screen to clear NVRAM and restart.
 
-### ⚒️ [Build and run from source](https://github.com/YBronst/OCLP-Plus/blob/main/SOURCE.md)
+### ⚒️ [`Build and run from source`](https://github.com/YBronst/OCLP-Plus/blob/main/SOURCE.md)
 
 ### 💾 Installation Requirements
 💡  **Before Running Post-Install Patches:**
 * **KDK is mandatory:** For macOS 13 through Tahoe (26.x), the Kernel Debug Kit must be installed for drivers like AppleHDA to link correctly. Use the Help > Download KDK button.
 
 ⚠️ **Resource Dependency Notice**
-* **Patcher Resources:** This version relies on the [PatcherSupportPkg](https://github.com/YBronst/PatcherSupportPkg) for native Tahoe binaries.
+* **Patcher Resources:** This version relies on the [`PatcherSupportPkg`](https://github.com/YBronst/PatcherSupportPkg) for native Tahoe binaries.
 > **Important:** Please be aware that if this resource becomes unavailable for any reason (e.g., server downtime or repository removal),
 > the OCLP-3.1.7 Tahoe Patch Set will lose its ability to fetch the necessary binaries, and root patching will fail.
 
-## 📝 [Change Log](https://github.com/YBronst/OCLP-Plus/blob/main/CHANGELOG.md)
+## 📝 [`Change Log`](https://github.com/YBronst/OCLP-Plus/blob/main/CHANGELOG.md)
 
 ## 📜 Credits
 *   [Acidanthera](https://github.com/Acidanthera) (OpenCorePkg, Lilu, etc.)
