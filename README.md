@@ -71,4 +71,4 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 ## ⚖️ Disclaimer
 This is an **experimental Project** intended for advanced users and complex Hackintosh/Legacy Mac configurations. Use at your own risk.
 
-**Community Discussion:** [InsanelyMac Thread](https://www.insanelymac.com/forum/topic/362042-experimental-fork-of-oclp-300-nightly-–-wi-fi-airdropairplay-and-applehda-fully-working-under-tahoe/)
+**Community Discussion:** [InsanelyMac Thread](https://www.insanelymac.com/forum/topic/362543-the-latest-the-oclp-plus-318-tahoe-patch-set-is-out/)
