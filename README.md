@@ -54,7 +54,7 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 * **KDK is mandatory:** For macOS 13 through Tahoe (26.x), the Kernel Debug Kit must be installed for drivers like AppleHDA to link correctly. Use the Help > Download KDK button.
 
 ⚠️ **Resource Dependency Notice**
-* **Patcher Resources:** This version relies on the [YBronst PatcherSupportPkg](https://github.com/YBronst/PatcherSupportPkg) for native Tahoe binaries.
+* **Patcher Resources:** This version relies on the [PatcherSupportPkg](https://github.com/YBronst/PatcherSupportPkg) for native Tahoe binaries.
 > **Important:** Please be aware that if this resource becomes unavailable for any reason (e.g., server downtime or repository removal),
 > the OCLP-3.1.7 Tahoe Patch Set will lose its ability to fetch the necessary binaries, and root patching will fail.
 
