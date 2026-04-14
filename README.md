@@ -8,7 +8,8 @@
 ## 🌟 Key Features
 
 ### 🏔️ Full macOS Tahoe Support
-Complete root patching support for **macOS Tahoe 26.0 (25A5316i)** through **macOS 26.4.1 (25E253)** and beyond. This fork ensures that legacy hardware remains compatible with the latest Darwin 25 kernel.
+- Modern root patching support for **macOS Tahoe 26.0 (25A5316i)** through **macOS 26.4.1 (25E253)** and beyond. 
+- Legacy root patching support before **macOS Sequoia 15.7.5 (24G624)** As in OpenCore Legacy Patcher 2.4.1.
 
 ### 📶 Wireless & Continuity Restoration
 Restores full functionality for Broadcom-based wireless chipsets (BCM4360 and similar):
