@@ -13,7 +13,7 @@ Complete root patching support for **macOS Tahoe 26.0 (25A5316i)** through **mac
 ### 📶 Wireless & Continuity Restoration
 Restores full functionality for Broadcom-based wireless chipsets (BCM4360 and similar):
 *  **Wi-Fi:** Stable connectivity on 2.4GHz and 5GHz bands.
-*  **AirDrop & Handoff:** Fully synchronized frameworks to ensure seamless file sharing and continuity features between devices.
+*  **AirDrop & Handoff:** Fully synchronized frameworks to ensure seamless file sharing and Apple continuity features.
 *  **AirPlay:** Restored support for streaming to and from your Mac.
 
 ### 🚫 Intel Wi-Fi (AirportItlwm) is NOT supported 
