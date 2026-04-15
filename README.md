@@ -22,9 +22,9 @@
 Restores full functionality for Broadcom-based wireless chipsets (BCM4360 and similar):
 * **AWDL**, work under Tahoe 26.x.
 
-    *  **Wi-Fi:** Stable connectivity on 2.4GHz and 5GHz bands.
-    *  **AirDrop & Handoff:** Fully synchronized frameworks to ensure seamless file sharing and Apple continuity features.
-    *  **AirPlay:** Restored support for streaming to and from your Mac.
+    *  **Wi-Fi** Stable connectivity on 2.4GHz and 5GHz bands.
+    *  **AirDrop & Handoff** Fully synchronized frameworks to ensure seamless file sharing and Apple continuity features.
+    *  **AirPlay** Restored support for streaming to and from your Mac.
 
 ### 🚫 Intel Wi-Fi (AirportItlwm) is NOT supported 
 *  **This fork is exclusively optimized for Broadcom-based wireless chipsets.** If you require Intel Wi-Fi patches for Tahoe, please use [OCLP-Mod](https://github.com/laobamac/OCLP-Mod).
