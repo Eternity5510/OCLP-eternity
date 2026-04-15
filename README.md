@@ -18,13 +18,12 @@
 * **Legacy** root patching support for macOS Sequoia 15.7.5 (24G624) and earlier, as in OpenCore Legacy Patcher 2.4.1.
 * **Note**: For macOS Sequoia and earlier, compatibility and SMBIOS requirements follow the standard limits of each respective operating system.
 
-### 📶 Wireless & Continuity Restoration
-Restores full functionality for Broadcom-based wireless chipsets (BCM4360 and similar):
-* **AWDL** now works on Tahoe 26.x.
+### 📶 Wireless & Continuity
+*  **Restores full functionality for Broadcom-based wireless chipsets** (BCM4360 and similar), including:
 
-    *  **Wi-Fi** Stable connectivity on 2.4GHz and 5GHz bands.
-    *  **AirDrop & Handoff** Fully synchronized frameworks to ensure seamless file sharing and Apple continuity features.
-    *  **AirPlay** Restored support for streaming to and from your Mac.
+    * **AWDL support** specifically for macOS Tahoe 26.x.
+    * **Stable Wi-Fi** (2.4GHz / 5GHz).
+    * **AirDrop, Handoff, and AirPlay** via fully synchronized frameworks.
 
 ### 🚫 Intel Wi-Fi (AirportItlwm) is NOT supported 
 *  **This fork is exclusively optimized for Broadcom-based wireless chipsets.**
