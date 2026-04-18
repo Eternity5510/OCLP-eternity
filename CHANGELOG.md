@@ -1,6 +1,9 @@
 # OCLP-Plus changelog
 ## 3.1.9
 
+- Added MacPro7,1 to SupportedSMBIOS to allow selection in GUI.
+- Updated Max OS Supported for Intel Macs: only iMac20,x, MBP16,1/2/4, and MacPro7,1.
+- Capped other Intel models (e.g. MBP 15,x, iMac 19,x) at sequoia.
 - Includes legacy patches for macOS versions earlier than 15.x.
 - Disabled Legacy patches for Tahoe 26.x to prevent failures when applying root patches.
 - Enabled ModernWireless/Audio for all versions (including Tahoe).
