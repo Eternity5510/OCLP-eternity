@@ -26,9 +26,9 @@
     * **AirDrop, Handoff, and AirPlay** via fully synchronized frameworks.
  
 ### ❌Non-functional features
-*  **On majority of patched Macs**, iPhone Mirroring and Apple Intelligence won't be functional.
-   *  **iPhone Mirroring requires T2 for attestation and Apple Intelligence requires an NPU only found in Apple Silicon.**
-   *  **The patcher is unable to provide a fix for these as they're hardware requirements.**
+*  **On majority of patched Macs, iPhone Mirroring and Apple Intelligence won't be functional.**
+   *  iPhone Mirroring requires T2 for attestation and Apple Intelligence requires an NPU only found in Apple Silicon.
+   *  The patcher is unable to provide a fix for these as they're hardware requirements.
 
 
 
