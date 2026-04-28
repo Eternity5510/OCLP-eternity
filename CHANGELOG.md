@@ -1,4 +1,5 @@
 # OCLP-Plus changelog
+
 ## 3.2.1
 - **Supported native or spoofed models (SMBIOS) in macOS Tahoe:**
   - **iMac**: iMac20,1, iMac20,2
