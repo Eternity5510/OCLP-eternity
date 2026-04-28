@@ -10,12 +10,12 @@
 ### 🏔️ Full macOS Tahoe Support
 
 * **Modern** root patching support for macOS Tahoe 26.0 (25A5316i) through macOS 26.4.1 (25E253) and later versions.
-* **Supported Mac Models (SMBIOS)**: For macOS Tahoe, this patch set is designed for the following **native** or **spoofed** models:
+* **Supported Mac Models (SMBIOS)**: For macOS Tahoe, this patch set is designed for the following native or spoofed models:
 
-    * **iMac**: `iMac20,1`, `iMac20,2`
-    * **MacBook Pro**: `MacBookPro16,1`, `MacBookPro16,2`, `MacBookPro16,4`
-    * **Mac Pro**: `MacPro7,1`
-* **It doesn't generate ready-made EFI folders. It creates only templates for manual configuration.**
+    * **iMac**: iMac20,1, iMac20,2
+    * **MacBook Pro**: MacBookPro16,1, MacBookPro16,2, MacBookPro16,4
+    * **Mac Pro**: MacPro7,1
+* **It doesn't generate ready-made EFI folders. It creates only draft templates for manual configuration.**
 * **Legacy** root patching support for macOS Sequoia 15.7.5 (24G624) and earlier, as in OpenCore Legacy Patcher 2.4.1.
 * **Note**: For macOS Sequoia and earlier, compatibility and SMBIOS requirements follow the standard limits of each respective operating system.
 
@@ -79,7 +79,7 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 ⚠️ **Resource Dependency Notice**
 * **Patcher Resources:** This version relies on the [`PatcherSupportPkg`](https://github.com/YBronst/PatcherSupportPkg) for native Tahoe binaries.
 > **Important:** Please be aware that if this resource becomes unavailable for any reason (e.g., server downtime or repository removal),
-> the OCLP-3.1.9 Tahoe Patch Set will lose its ability to fetch the necessary binaries, and root patching will fail.
+> the OCLP-3.2.1 Tahoe Patch Set will lose its ability to fetch the necessary binaries, and root patching will fail.
 
 ## 📝 [`Change Log`](https://github.com/YBronst/OCLP-Plus/blob/main/CHANGELOG.md)
 
@@ -95,4 +95,4 @@ Starting with macOS Tahoe Beta 2, Apple removed the legacy `AppleHDA.kext`. This
 ## ⚖️ Disclaimer
 This is an **experimental Project** intended for advanced users and complex Hackintosh/Legacy Mac configurations. Use at your own risk.
 
-**Community Discussion:** [`InsanelyMac Thread`](https://www.insanelymac.com/forum/topic/362543-the-latest-the-oclp-plus-318-tahoe-patch-set-is-out/)
+**Community Discussion:** [`InsanelyMac Thread`](https://www.insanelymac.com/forum/topic/362543-the-latest-the-oclp-plus-321-tahoe-patch-set-is-out/)
