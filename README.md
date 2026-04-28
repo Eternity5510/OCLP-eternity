@@ -12,10 +12,10 @@
 * **Modern** root patching support for macOS Tahoe 26.0 (25A5316i) through macOS 26.4.1 (25E253) and later versions.
 * **Supported Mac Models (SMBIOS)**: For macOS Tahoe, this patch set is designed for the following native or spoofed models:
 
-    * **iMac**: iMac20,1, iMac20,2
-    * **MacBook Pro**: MacBookPro16,1, MacBookPro16,2, MacBookPro16,4
-    * **Mac Pro**: MacPro7,1
-* **It doesn't generate ready-made EFI folders. It creates only draft templates for manual configuration.**
+   * **iMac**: iMac20,1, iMac20,2
+   * **MacBook Pro**: MacBookPro16,1, MacBookPro16,2, MacBookPro16,4
+   * **Mac Pro**: MacPro7,1
+* ***This set creates draft templates for manual configuration and does not generate ready-made EFI folders.***
 * **Legacy** root patching support for macOS Sequoia 15.7.5 (24G624) and earlier, as in OpenCore Legacy Patcher 2.4.1.
 * **Note**: For macOS Sequoia and earlier, compatibility and SMBIOS requirements follow the standard limits of each respective operating system.
 
